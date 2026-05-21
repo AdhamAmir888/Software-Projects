@@ -1,0 +1,617 @@
+.clr {
+  clear: both;
+}
+.font {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+body {
+  margin: 0;
+}
+/* ================================== Start Header Section========================================= */
+
+.headersec {
+  width: 80%;
+  margin: auto;
+}
+
+.left-header-part {
+  width: 50%;
+  float: left;
+}
+
+h1 {
+  font-size: 61px;
+  color: black;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+div.left-header-part p {
+  font-size: 20px;
+  font-weight: 100;
+  color: #101828;
+  margin-left: 20px;
+  line-height: 35px;
+}
+
+#but1 {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 16px 32px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+#but2 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px 32px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.right-header-part {
+  width: 50%;
+  margin: auto;
+  float: left;
+}
+
+.right-header-item img {
+  width: 65%;
+  border-radius: 20px;
+  margin-left: 80px;
+  margin-top: 90px;
+}
+/* ==================================End Header Section========================================= */
+
+/* ==================================Start Why Choose Section========================================= */
+
+.why-choose-header {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 130px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.why-choose-paragraph {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 100;
+  margin-bottom: 70px;
+  color: #101828;
+}
+
+.admoon {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.why-choose-item1 {
+  background-color: #eff6ff;
+  width: 29%;
+  height: 250px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 20px;
+  padding: 15px;
+  border-color: #ddc6d9;
+  border-style: solid;
+  border-width: 1px;
+}
+.why-choose-item2 {
+  background-color: #ecfdf5;
+  width: 29%;
+  height: 250px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 20px;
+  padding: 15px;
+  border-color: #d1cfbc;
+  border-style: solid;
+  border-width: 1px;
+}
+.why-choose-item3 {
+  background-color: #faf5ff;
+  width: 29%;
+  height: 250px;
+  float: left;
+  border-radius: 20px;
+  padding: 15px;
+  border-color: #f3cae2;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.blue-box {
+  width: 60px;
+  height: 60px;
+  background-color: #155dfc;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 5px 5px;
+}
+.whitebox {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  margin: 15px auto;
+}
+.why-choose-item1 h3 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.why-choose-item1 p {
+  text-align: center;
+  color: #101828;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.green-box {
+  width: 60px;
+  height: 60px;
+  background-color: #009966;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 5px 5px;
+}
+.whitecircle {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  margin: 14px auto;
+}
+.why-choose-item2 h3 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.why-choose-item2 p {
+  text-align: center;
+  color: #101828;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.purple-box {
+  width: 60px;
+  height: 60px;
+  background-color: #9810fa;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 5px 5px;
+}
+
+.why-choose-item3 h3 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.why-choose-item3 p {
+  text-align: center;
+  color: #101828;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.training-photo {
+  width: 45%;
+  float: left;
+}
+.training-photo img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-right: 20px;
+}
+
+.more-than-gym {
+  width: 45%;
+  float: left;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.more-than-gym h2 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.more-than-gym h3 {
+  font-size: 20px;
+  color: #101828;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+.more-than-gym p {
+  font-size: 16px;
+  color: #101828;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+#sp2 {
+  display: block;
+  font-size: 16px;
+  color: #101828;
+  font-weight: 100;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.line1 {
+  width: 4px;
+  height: 58px;
+  background-color: black;
+  /* margin-bottom: 30px; */
+  margin-right: 20px;
+  float: left;
+}
+.line2 {
+  width: 4px;
+  height: 80px;
+  background-color: black;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  float: left;
+}
+.line3 {
+  width: 4px;
+  height: 80px;
+  background-color: black;
+  margin-bottom: 60px;
+  margin-right: 20px;
+  float: left;
+}
+
+/* ==================================End Why Choose Section========================================= */
+
+/* ==================================START What Our Members Say Section========================================= */
+
+.background-divaya {
+  background-color: #f9fafb;
+  margin-top: 10px;
+
+  padding: 1px 0px;
+}
+.what-our-members-say-header {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 90px;
+  margin-bottom: 12px;
+  color: black;
+}
+.what-our-members-say-paragraph {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 100;
+  margin-bottom: 70px;
+  color: #101828;
+}
+.photo1 {
+  width: 20%;
+  float: left;
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 12px;
+}
+.photo2 {
+  width: 20%;
+  float: left;
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 12px;
+}
+.photo3 {
+  width: 20%;
+  float: left;
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 12px;
+}
+
+.photo1 img {
+  width: 100%;
+  border-radius: 100%;
+}
+.photo2 img {
+  width: 100%;
+  border-radius: 100%;
+}
+.photo3 img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+h3.member-say {
+  text-align: left;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+p.member-say {
+  text-align: left;
+  color: #101828;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+p.member-say-again {
+  margin: 30px 20px;
+  color: #101828;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.big-box {
+  width: 80%;
+  height: 180px;
+  margin: 70px auto;
+  background-color: #f1f5f9;
+  border-radius: 20px;
+}
+.gowa-elbox {
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin: 20px auto;
+}
+.gowa-elbox h2 {
+  font-size: 36px;
+  font-weight: 700px;
+  margin-bottom: 8px;
+}
+.gowa-elbox p {
+  font-size: 16px;
+  font-weight: 400px;
+  margin-top: 0px;
+}
+
+/* ==================================END What Our Members Say Section========================================= */
+
+/* ==================================Start Ready to journey Section========================================= */
+
+.ready-to-journey h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 90px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.ready-to-journey p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 100;
+  margin-bottom: 40px;
+  color: #101828;
+}
+.ready-to-journey span {
+  display: block;
+}
+
+.background-divaya2 {
+  background-color: #f9fafb;
+  width: 60%;
+  margin: 80px auto;
+  border-radius: 20px;
+  padding-bottom: 1px;
+}
+.container2 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.formlabels {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 15px;
+}
+.forminput {
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  margin-right: px;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  padding-top: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  border-style: solid;
+  border-color: rgb(177, 177, 177);
+  border-width: 1px;
+}
+
+.firstlast {
+  width: 100%;
+  margin: auto;
+}
+.first {
+  width: 46%;
+  float: left;
+  margin-right: 4%;
+}
+.last {
+  width: 50%;
+  float: left;
+}
+.container2 button {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.container2 p {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+/* ==================================End Ready to journey Section========================================= */
+
+.background-divaya3 {
+  background-color: #101828;
+  margin: 0px;
+  width: 100%;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.footer-leftpart {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.footer-leftpart h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.footer-leftpart p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: #646c7b;
+}
+
+.footer-middlepart {
+  width: 28%;
+  float: left;
+  margin-right: 20px;
+}
+
+.footer-rightpart {
+  width: 26%;
+  float: left;
+}
+
+.thelinks {
+  margin-top: 30px;
+}
+
+.facelink a {
+  float: left;
+  margin-right: 20px;
+  color: #646c7b;
+  text-decoration: none;
+}
+.instalink a {
+  float: left;
+  margin-right: 20px;
+  color: #646c7b;
+  text-decoration: none;
+}
+.twitterlink a {
+  float: left;
+  color: #646c7b;
+  text-decoration: none;
+}
+
+.footer-middlepart h4 {
+  font-size: 20px;
+  font-weight: 600px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.middlelinks {
+  margin-top: 13px;
+}
+.middlelinks a {
+  text-decoration: none;
+  color: #646c7b;
+}
+.footer-rightpart h4 {
+  font-size: 20px;
+  font-weight: 600px;
+  color: white;
+  margin-bottom: 0;
+}
+.footer-rightpart h5 {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500px;
+  color: white;
+  margin-bottom: 5px;
+}
+.footer-rightpart p {
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #646c7b;
+}
+.footer-rightpart a {
+  color: #646c7b;
+  text-decoration: none;
+}
+
+#hrr {
+  width: 80%;
+  margin-top: 30px;
+  border: solid;
+  border-width: 1px;
+  width: 100%;
+  color: #646c7b;
+}
+
+.finalparagraph {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #646c7b;
+  margin-right: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.finallinks {
+  float: left;
+  margin-top: 33px;
+}
+
+.finallinkstazbeet {
+  font-size: 14px;
+  font-weight: 400px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #646c7b;
+}
